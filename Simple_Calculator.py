@@ -1,18 +1,23 @@
 symbol = input("Enter mathematic operation(+ , - , * , /): ")
-number1 = int(input("Enter the first number: "))
-number2 = int(input("Enter the second number: "))
 
-divide = round(number1 / number2,)
+if symbol == '+' or symbol == '-' or symbol == '*' or symbol == '/':  
 
-if symbol == "+":
-    print(f'The result is {number1 + number2}')
-elif symbol == '-':
-    print(f'The result is {number1 - number2}')
-elif symbol == '*':
-    print(f'The result is {number1 * number2}')
-elif symbol == "/":
-    print(f'The result is {divide}')
+    number1 = float(input("Enter the first number: "))
+    number2 = float(input("Enter the second number: "))
+    plus = round(number1 + number2, 1)
+    minus = round(number1 - number2, 1)
+    mutiple = round(number1 * number2, 1)
+    divide = round(number1 / number2, 1)
+
+    if symbol == "+":
+        print(f'The result is {plus}')
+    elif symbol == '-':
+        print(f'The result is {minus}')
+    elif symbol == '*':
+        print(f'The result is {mutiple}')
+    elif symbol == "/":
+        print(f'The result is {divide}')
 else:
-    print("There is no operation with that symbol")
+    print("Something is wrong ")
 
     
