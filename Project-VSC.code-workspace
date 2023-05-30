@@ -3,9 +3,7 @@
 		{
 			"path": "."
 		},
-		{
-			"path": "D:/Testing Workspace"
-		}
+		
 	],
 	"settings": {
 		"files.autoSave": "afterDelay"
