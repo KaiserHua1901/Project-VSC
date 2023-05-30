@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "D:/Testing Workspace"
 		}
 	],
 	"settings": {
