@@ -43,3 +43,4 @@ while True:
         print("Your guess is larger than the answer")
         
 print(f'Your took {score} time to guess it right!')
+        
