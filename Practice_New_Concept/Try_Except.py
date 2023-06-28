@@ -20,10 +20,10 @@ while True:
         if x <= 0:
             raise ValueError('It needed to be larger than 0')
         break
-    except TypeError as x:
+    except ValueError as x:
         print(f"{x} is not a digit, Please enter a digit")
     #this will check if the x is a digit
-    # THIS IS NOT WORKING
+    
 print(type(x))
 # def check_digit(x):
 #     while True:
